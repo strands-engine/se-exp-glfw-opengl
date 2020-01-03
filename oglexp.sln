@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sandbox", "sandbox\sandbox.vcxproj", "{06658477-8D05-413D-BD5D-5218B45B8162}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oglexp", "oglexp\oglexp.vcxproj", "{480D5327-1C77-4025-B0EC-143C9E1F54BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{480D5327-1C77-4025-B0EC-143C9E1F54BA}.Debug|x64.ActiveCfg = Debug|x64
+		{480D5327-1C77-4025-B0EC-143C9E1F54BA}.Debug|x64.Build.0 = Debug|x64
+		{480D5327-1C77-4025-B0EC-143C9E1F54BA}.Release|x64.ActiveCfg = Release|x64
+		{480D5327-1C77-4025-B0EC-143C9E1F54BA}.Release|x64.Build.0 = Release|x64
+		{06658477-8D05-413D-BD5D-5218B45B8162}.Debug|x64.ActiveCfg = Debug|x64
+		{06658477-8D05-413D-BD5D-5218B45B8162}.Debug|x64.Build.0 = Debug|x64
+		{06658477-8D05-413D-BD5D-5218B45B8162}.Release|x64.ActiveCfg = Release|x64
+		{06658477-8D05-413D-BD5D-5218B45B8162}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69ADAD2F-8020-4B9B-9523-A39177B5B1B4}
+	EndGlobalSection
+EndGlobal
