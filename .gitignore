@@ -1,6 +1,10 @@
 # VS
 .vs/*
 *.vcxproj.user
+*.vcxproj.filters
+
+*/bin/*
+*/obj/*
 
 # Prerequisites
 *.d
