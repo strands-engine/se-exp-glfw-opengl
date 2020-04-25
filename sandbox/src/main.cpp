@@ -12,12 +12,3 @@ oglexp::application * create_oglexp_application()
 {
 	return new sandbox_app();
 }
-
-//int main()
-//{
-//	auto app = std::make_unique<sandbox_app>();
-//
-//	app->run();
-//
-//	return 0;
-//}

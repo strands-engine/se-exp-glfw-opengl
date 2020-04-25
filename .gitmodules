@@ -1,0 +1,3 @@
+[submodule "oglexp/vendor/spdlog"]
+	path = oglexp/vendor/spdlog
+	url = https://github.com/gabime/spdlog

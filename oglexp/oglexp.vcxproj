@@ -53,6 +53,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>OXP_PLATFORM_WIN;OXP_BUILD_DLL;_WINDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)oglexp/vendor/spdlog/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -67,6 +68,7 @@
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
       <PreprocessorDefinitions>OXP_PLATFORM_WIN;OXP_BUILD_DLL;_MBCS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)oglexp/vendor/spdlog/include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,9 +81,11 @@
     <ClInclude Include="src\oglexp\application.h" />
     <ClInclude Include="src\oglexp\core.h" />
     <ClInclude Include="src\oglexp\entry_point.h" />
+    <ClInclude Include="src\oglexp\log.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\oglexp\application.cpp" />
+    <ClCompile Include="src\oglexp\log.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
