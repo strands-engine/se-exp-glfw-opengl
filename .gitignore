@@ -1,8 +1,10 @@
 *.swp
 *.vcxproj.user
 *.vcxproj.filters
+*.vcxproj
+*.sln
 
 bin/*
-obj/*
+bin-int/*
 .vs/*
 
